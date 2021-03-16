@@ -1,0 +1,50 @@
+//1
+print (¡Hola a “” todas “’ y “’ todos!’”’);
+
+//2 
+nombre  = input (“Introduce tu nombre: “)
+print (“¡Hola ” + “<” + nombre + ”>!”) 
+
+//4
+In [11]: np.eye(4, 3) 
+Out[11]:
+array([[ 0., 0., 0.],
+[ 0., 1., 1.],
+[ 1., 0., 1.],
+[ 1., 1., 1.]])
+
+//5
+horas = float(input("Introduce tus horas de estudio totales: "))
+dias = Integer(input("Introduce los días que estudiaste"))
+promedio = horas / dias
+print("Tu promedio de estudio total es", promedio)
+ 
+//6
+m = int(input("Introduce un número entero: "))
+suma = m * (m + 1) / 2
+print ("La suma de los desde 1 hasta " + 	str(n) + " es " + str(suma))
+   
+//7	
+peso = input("¿Cuál es tu peso (lbs)? ")
+estatura = input("¿Cuál es tu estatura (mts)?")
+imc = round(float(peso)/float(estatura)**2,2)
+print("Tu índice de masa corporal es " + str(imc))
+
+//8	
+a = float(input("Introduce primer numero:"))
+b = float(input("Introduce el segundo numero "))
+print(a + " / " +  b + " cociente " + str(int(a) // int(b)) + " y un resto " + str(int(a) % int(b)))
+
+//9
+cantidad = float(input("¿Cantidad a invertir? "))
+interes = float(input("¿Interés porcentual (al año)? "))
+años = int(input("¿Cuántos Años?"))
+print("Capital final: " + str(round(cantidad * (interes / 100 + 1) ** años, 2)))
+
+//10
+barreno = 112
+sierra_electrica = 75
+P_barrenos = int(input("Introduce peso de los barrenos a enviar: "))
+P_sierra_electricas = int(input("Introduce peso de sierras electricas a enviar: "))
+total = barreno * P_barrenos + sierra_electrica * P_sierra_electricas
+print("El total de peso es" + str(total))
